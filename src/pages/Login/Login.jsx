@@ -16,10 +16,9 @@ const Login = () => {
         <div className="login">
             <div className="card">
                 <div className="left">
-                    <h1>EX-ZBT</h1>
+                    <h1>App Name</h1>
                     <p>
-                    The purpose of the software is to provide a video sharing platform 
-                     It allows users to register, create profiles, upload and share videos and receive feedback based on their video submissions.
+                    Out goal is to connect you with the information you need to learn and succeed in the world!
                     </p>
                     <button >Register</button>
                 </div>

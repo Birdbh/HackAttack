@@ -1,8 +1,13 @@
 import React from 'react'
 import hero from "./hero.png";
 function Hero() {
+  const customStyle = {
+    backgroundColor: '#7CC6FE',
+    margin: "20px"
+  };
+
   return (
-    <div class="hero_section  top_container">
+    <div style={customStyle} class="hero_section  top_container">
         <div class="hero-container container">
     <div class="hero_detail-box">
       <h1>

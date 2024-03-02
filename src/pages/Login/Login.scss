@@ -1,6 +1,6 @@
 .login{
-    height: 100vh;
-    background-color: turquoise;
+    height: 120vh;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,13 +11,13 @@
         display: flex;
         background-color: var(--body_background);
         border-radius: 10px;
-        min-height: 600px;
+        min-height: 200px;
         overflow: hidden;
 
 
         .left{
             flex: 1;
-            background:linear-gradient(rgba(11, 73, 96, 0.5), turquoise), url("https://images.pexels.com/photos/9830108/pexels-photo-9830108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+            background:linear-gradient(rgba(11, 73, 96, 0.5), orange), url("https://images.pexels.com/photos/9830108/pexels-photo-9830108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
             background-size: cover;
             padding: 50px;
             display: flex;
@@ -40,7 +40,7 @@
                 width: 50%;
                 padding: 10px;
                 border: none;
-                background-color: turquoise;
+                background-color: #fdd313;
                 color: var(--body_color);
                 font-weight: bold;
                 cursor: pointer;
@@ -78,7 +78,7 @@
                     width: 50%;
                     padding: 10px;
                     border: none;
-                    background-color: turquoise;
+                    background-color: #fdd313;
                     color: var(--body-color);
                     font-weight: bold;
                     cursor: pointer;
@@ -110,7 +110,7 @@
 
     button {
         border: none;
-        background-color: turquoise;
+        background-color: yellow;
         color: var(--body_background);
         cursor: pointer;
         display: inline-block;
