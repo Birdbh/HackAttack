@@ -19,6 +19,7 @@ import ComputerLiteracy from "./pages/Courses/ComputerLiteracy/ComputerLiteracy"
 import Physics from "./pages/Courses/Science/Physics";
 import Chem from "./pages/Courses/Science/Chem";
 import Bio from "./pages/Courses/Science/Bio";
+import About from "./components/About/About";
 
 
 function App() {

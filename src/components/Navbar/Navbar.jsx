@@ -1,8 +1,10 @@
 import React from 'react'
+import {redirect, useNavigate,Navigate, Link,} from "react-router-dom";
+import { useState } from "react";
 
 function Navbar() {
   return (
-    <div class="container ">
+    <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
@@ -18,18 +20,17 @@ function Navbar() {
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                  <Link to="/" class="nav-link" href="home."> Home <span class="sr-only">(current)</span></Link>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> About </a>
+                  <Link to="/about" class="nav-link" href="about." > About <span class="sr-only">(current)</span></Link>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="courses.html"> Courses </a>
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link" href="admission.html"> Admission </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="why.html"> Why Us </a>
+                  <Link to="/login" class="nav-link" href="login." > Login <span class="sr-only">(current)</span></Link>
                 </li>
 
                 <li class="nav-item">
