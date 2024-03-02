@@ -8,6 +8,10 @@ Grading: Each on a Scale of 1-10
 -> Presentaton & collaboration
 -> Progress check-in with Execs
 
+To run the app
+- cd into my-app
+- run npm start
+
 Agenda:
 
 -Saturday: Must attend check-in with an executive
@@ -37,6 +41,12 @@ Cons:
 -Videos for person who is user
 -One demo lesson path
 -Sign in -> text-based verification
+-Classes First one is increasing computer literacy (VPN)
 
 Idea:
 -University-related and we could do it on campus
+
+Resource:
+https://medium.com/javarevisited/10-free-premium-react-website-templates-for-stunning-app-based-projects-b57b69c2084
+Template Yemisi Liked: https://htmlcodex.com/elearning-html-template/
+Template Yemisi Used -> https://html.design/download/fanadesh-school-html-template/
