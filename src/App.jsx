@@ -14,7 +14,11 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Profile from "./pages/Profile/Profile";
 import Courses from "./pages/Courses/Courses";
-
+import Math from "./pages/Courses/Mathematics/Math";
+import ComputerLiteracy from "./pages/Courses/ComputerLiteracy/ComputerLiteracy";
+import Physics from "./pages/Courses/Science/Physics";
+import Chem from "./pages/Courses/Science/Chem";
+import Bio from "./pages/Courses/Science/Bio";
 
 
 function App() {
@@ -43,7 +47,7 @@ function App() {
           element: <Profile />
         },
         {
-          path: "/courses", 
+          path: "/subjects", 
           element: <Courses />
         },
         {
@@ -57,6 +61,26 @@ function App() {
         {
           path:"/login",
           element:<Login />
+        },
+        {
+          path:"/math",
+          element:<Math/>
+        },
+        {
+          path:"/computer-basics",
+          element:<ComputerLiteracy/>
+        },
+        {
+          path:"/subjects/physics",
+          element:<Physics/>
+        },
+        {
+          path:"/subjects/chemistry",
+          element:<Chem/>
+        },
+        {
+          path:"/subjects/biology",
+          element:<Bio/>
         }
         
       ],
