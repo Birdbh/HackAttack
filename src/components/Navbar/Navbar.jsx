@@ -23,15 +23,14 @@ function Navbar() {
                   <Link to="/" class="nav-link" href="home."> Home <span class="sr-only">(current)</span></Link>
                 </li>
                 <li class="nav-item ">
-                  <Link to="/about" class="nav-link" href="about.html"> About </Link>
+                  <Link to="/about" class="nav-link" href="about." > About <span class="sr-only">(current)</span></Link>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="courses.html"> Courses </a>
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link" href="admission.html"> Admission </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="why.html"> Why Us </a>
+                  <Link to="/login" class="nav-link" href="login." > Login <span class="sr-only">(current)</span></Link>
                 </li>
 
                 <li class="nav-item">

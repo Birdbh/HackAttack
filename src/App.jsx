@@ -14,7 +14,7 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Profile from "./pages/Profile/Profile";
 import Courses from "./pages/Courses/Courses";
-
+import About from "./components/About/About";
 
 
 function App() {
@@ -57,7 +57,11 @@ function App() {
         {
           path:"/login",
           element:<Login />
-        }
+        },
+        {
+          path: "/about",
+          element: <About/>,
+        },
         
       ],
     }
