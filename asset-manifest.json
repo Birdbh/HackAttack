@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/HackAttack/static/css/main.4bd92c7c.css",
+    "main.js": "/HackAttack/static/js/main.dff6b098.js",
+    "static/js/453.ed3810f9.chunk.js": "/HackAttack/static/js/453.ed3810f9.chunk.js",
+    "static/media/client.png": "/HackAttack/static/media/client.d293b9c831e00bb39d29.png",
+    "static/media/hero.png": "/HackAttack/static/media/hero.31972d74e4b6186e2139.png",
+    "static/media/about.png": "/HackAttack/static/media/about.2a0a20751867cdd8d80a.png",
+    "static/media/hero-bg.png": "/HackAttack/static/media/hero-bg.2e1d1ad247ae2d43f1bd.png",
+    "index.html": "/HackAttack/index.html",
+    "main.4bd92c7c.css.map": "/HackAttack/static/css/main.4bd92c7c.css.map",
+    "main.dff6b098.js.map": "/HackAttack/static/js/main.dff6b098.js.map",
+    "453.ed3810f9.chunk.js.map": "/HackAttack/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd92c7c.css",
+    "static/js/main.dff6b098.js"
+  ]
+}
