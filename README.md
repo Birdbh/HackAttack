@@ -41,3 +41,6 @@ Cons:
 
 Idea:
 -University-related and we could do it on campus
+
+Resource:
+https://medium.com/javarevisited/10-free-premium-react-website-templates-for-stunning-app-based-projects-b57b69c2084
