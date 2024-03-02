@@ -16,7 +16,7 @@ const Login = () => {
         <div className="login">
             <div className="card">
                 <div className="left">
-                    <h1>App Name</h1>
+                    <h1>Maaktabi</h1>
                     <p>
                     Out goal is to connect you with the information you need to learn and succeed in the world!
                     </p>

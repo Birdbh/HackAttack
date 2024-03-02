@@ -1,6 +1,6 @@
 .register {
   height: 100vh;
-  background-color: turquoise;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #6a0572;
+    background-color: #CCD5FF;
     border-radius: 10px;
     border: 3px solid #f0f0f0;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@
 
     .left {
       flex: 1;
-      background: linear-gradient(rgba(39, 11, 96, 0.5), turquoise),
+      background: linear-gradient(rgba(39, 11, 96, 0.5), #CCD5FF),
         url("https://images.pexels.com/photos/9830108/pexels-photo-9830108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
       background-size: cover;
       padding: 50px;
@@ -51,7 +51,7 @@
         padding: 10px;
         border: none;
         background-color: white;
-        color: turquoise;
+        color: #7CC6FE;
         font-weight: bold;
         cursor: pointer;
       }
@@ -89,7 +89,7 @@
           width: 50%;
           padding: 10px;
           border: none;
-          background-color: turquoise;
+          background-color: #7CC6FE;
           color: var(--body_color);
           font-weight: bold;
           cursor: pointer;

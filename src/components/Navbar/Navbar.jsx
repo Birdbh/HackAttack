@@ -41,11 +41,6 @@ function Navbar() {
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
 
-
-                <li class="nav-item">
-                <Link to="/register" class="nav-link" > Register <span class="sr-only">(current)</span></Link>
-                </li>
-
               </ul>
             </div>
         </nav>
