@@ -1,12 +1,12 @@
 # HackAttack
 
-Grading: Each on Scale of 1-10
--> Alignment withe SDG's
+Grading: Each on a Scale of 1-10
+-> Alignment with SDG's
 -> Innovation & Creativity
 -> Potential Impact
--> Feasibility & Scalebility
+-> Feasibility & Scalability
 -> Presentaton & collaboration
--> Progress check-in withe Execs
+-> Progress check-in with Execs
 
 Agenda:
 
@@ -19,3 +19,12 @@ Information about the project, based on GIT presentation:
 SDG's (Sustainable Development Goals) - > https://sdgs.un.org/goals
 
 Goal Selected: 
+Gender Equality
+
+Idea:
+-Talaban womens education (Afgan)
+-Women onto television and will teach science lessons online
+-Access to computer & wifi -> step towards women equality healthcare & education
+Cons:
+-Niche
+-Coding & mumbo jumbo for translation
