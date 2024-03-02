@@ -28,3 +28,6 @@ Idea:
 Cons:
 -Niche
 -Coding & mumbo jumbo for translation
+
+Idea:
+-University-related and we could do it on campus
