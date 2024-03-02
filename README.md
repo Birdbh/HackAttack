@@ -37,6 +37,7 @@ Cons:
 -Videos for person who is user
 -One demo lesson path
 -Sign in -> text-based verification
+-Classes First one is increasing computer literacy (VPN)
 
 Idea:
 -University-related and we could do it on campus
