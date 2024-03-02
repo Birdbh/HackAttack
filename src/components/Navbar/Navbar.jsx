@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <div>
-      <AppBar position="static" sx={{ backgroundColor: '#7CC6FE' }}>
+      <AppBar position="static" sx={{ backgroundColor: '#7CC6FE' , margin:"5px"}}>
         <Toolbar>
           <IconButton
             edge="start"
@@ -28,7 +28,7 @@ function Navbar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Appname
+            Maaktabi
           </Typography>
         </Toolbar>
       </AppBar>
@@ -38,19 +38,19 @@ function Navbar() {
         onClose={handleDrawerClose}
       >
         <List>
-          <ListItem button component={Link} to="/">
+          <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
             <ListItemText primary="Home" />
           </ListItem>
-          <ListItem button component={Link} to="/about">
-            <ListItemText primary="About" />
-          </ListItem>
-          <ListItem button component="a" href="subjects">
-            <ListItemText primary="Courses" />
-          </ListItem>
-          <ListItem button component={Link} to="/login">
+          <ListItem button component={Link} to="/login" onClick={handleDrawerClose}>
             <ListItemText primary="Login" />
           </ListItem>
-          <ListItem button component="a" href="/contact">
+          <ListItem button component={Link} to="/about" onClick={handleDrawerClose}>
+            <ListItemText primary="About" />
+          </ListItem>
+          <ListItem button component="a" href="subjects" onClick={handleDrawerClose}>
+            <ListItemText primary="Subjects" />
+          </ListItem>
+          <ListItem button component="a" href="/contact-us" onClick={handleDrawerClose}>
             <ListItemText primary="Contact Us" />
           </ListItem>
         </List>

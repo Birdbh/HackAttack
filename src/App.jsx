@@ -20,6 +20,7 @@ import Physics from "./pages/Courses/Science/Physics";
 import Chem from "./pages/Courses/Science/Chem";
 import Bio from "./pages/Courses/Science/Bio";
 import About from "./components/About/About";
+import Contact from "./pages/Contact/Contact";
 
 
 function App() {
@@ -47,6 +48,16 @@ function App() {
           path: "/profile",
           element: <Profile />
         },
+        {
+
+          path: "/about",
+          element: <About/>
+        },
+        {
+          path: "/contact-us",
+          element: <Contact/>
+        }
+        ,
         {
           path: "/subjects", 
           element: <Courses />
