@@ -1,6 +1,6 @@
 import "./Login.scss"
 
-import {redirect, useNavigate,Navigate,} from "react-router-dom";
+import {redirect, useNavigate,Navigate,Link} from "react-router-dom";
 import { useState } from "react";
 
 const Login = () => {
@@ -27,7 +27,11 @@ const Login = () => {
                     <form >
                         <input type="text" name="loginParam" placeholder="Email or username" value={loginParam} onChange={(e) => setLoginParam(e.target.value)}/>
                         <input type="password" name="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
-                        <button disabled={!loginParam || !password} type="submit">{loading ? "Please wait" : "Login"}</button>
+
+                        <Link to="/courses" class="nav-link" >
+
+                        <button disabled={!loginParam || !password} type="submit">{loading ? "Please wait" : "Login"}</button></Link>
+
                         <span
                          data-testid="error"
                          style={{visibility:error? "visible":"hidden"}}

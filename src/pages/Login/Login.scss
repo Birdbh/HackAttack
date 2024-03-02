@@ -17,7 +17,7 @@
 
         .left{
             flex: 1;
-            background:linear-gradient(rgba(11, 73, 96, 0.5), orange), url("https://images.pexels.com/photos/9830108/pexels-photo-9830108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+            background:linear-gradient(rgba(11, 73, 96, 0.5), #CCD5FF), url("https://images.pexels.com/photos/9830108/pexels-photo-9830108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
             background-size: cover;
             padding: 50px;
             display: flex;
@@ -40,7 +40,7 @@
                 width: 50%;
                 padding: 10px;
                 border: none;
-                background-color: #fdd313;
+                background-color: #7CC6FE;
                 color: var(--body_color);
                 font-weight: bold;
                 cursor: pointer;
@@ -78,7 +78,7 @@
                     width: 50%;
                     padding: 10px;
                     border: none;
-                    background-color: #fdd313;
+                    background-color: #7CC6FE;
                     color: var(--body-color);
                     font-weight: bold;
                     cursor: pointer;
