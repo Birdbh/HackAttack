@@ -32,6 +32,7 @@ const Login = () => {
                         <Link to="/" class="nav-link">
 
                         <button disabled={!loginParam || !password} type="submit">{loading ? "Please wait" : "Login"}</button>
+                        
                         </Link>
 
                         <span

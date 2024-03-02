@@ -75,11 +75,13 @@ const Profile = () => {
   return (
     <div className="profile">
       <div className="images">
-        <img
-          src="https://images.pexels.com/photos/13440765/pexels-photo-13440765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt=""
-          className="cover"
-        />
+      <div style={{ padding: '5px', opacity: '0.5' }}>
+      <img
+        src="https://images.inc.com/uploaded_files/image/1920x1080/getty_507159161_2000133320009280334_181026.jpg"
+        alt=""
+        className="cover"
+      />
+    </div>
         <img
           src=""
           alt=""
