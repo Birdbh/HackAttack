@@ -1,3 +1,3 @@
 # HackAttack
 
-Information about Project Based upon GIT Presentation:
+Information about project, based upon GIT presentation:
