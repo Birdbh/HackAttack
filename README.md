@@ -25,6 +25,7 @@ Idea:
 -Talaban womens education (Afgan)
 -Women onto television and will teach science lessons online
 -Access to computer & wifi -> step towards women equality healthcare & education
+-Coding information so that it removes stigma
 Cons:
 -Niche
 -Coding & mumbo jumbo for translation
