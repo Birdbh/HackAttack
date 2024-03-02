@@ -20,13 +20,17 @@ function Hero() {
       </p>
       <div class="hero_btn-continer">
         
-        <Link to="/register"> <button class="call_to-btn btn_white-border" >Register</button></Link>
+        <Link to="/register"> <a class="call_to-btn btn_white-border" >Register</a></Link>
 
       </div>
     </div>
     <div class="hero_img-container">
       <div>
-        <img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-08-2023-UNICEF-Afghanistan-school.jpg/image770x420cropped.jpg" alt="" class="img-fluid"/>
+      <img src="https://www.hrw.org/sites/default/files/styles/embed_xxl/public/media_2021/10/202110asia_afghanistan_woman.jpg?itok=hpe344q9" alt="" class="img-fluid"/>
+      <div class="hero-img2">
+      <img  src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-08-2023-UNICEF-Afghanistan-school.jpg/image770x420cropped.jpg" alt="" class="img-fluid"/>
+      </div>
+        
       </div>
     </div>
   </div>

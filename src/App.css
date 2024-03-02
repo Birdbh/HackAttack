@@ -189,7 +189,7 @@ a:focus {
 .hero-container {
   display: flex;
   padding-top: 90px;
-  padding-bottom: 325px;
+  padding-bottom: 80px;
 }
 
 .hero_detail-box {
@@ -204,6 +204,10 @@ a:focus {
 
 .hero_img-container img {
   width: 100%;
+}
+
+.hero-img2{
+  margin-top: 100px;
 }
 
 .hero_detail-box {

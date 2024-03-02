@@ -1,5 +1,6 @@
 import React from 'react'
 import about from "./about.png";
+import { Link } from 'react-router-dom';
 function About() {
   return (
     <div>
@@ -22,9 +23,8 @@ function About() {
                We begin by teaching you how to access an online web VPN and download a zoom account, which will allow you to access the rest of our courses securely and safely. Then, you have the option of being put in an online classroom with a teacher based internationally, or by providing you a customized learning plan that you can follow on your own time.
               </p>
               <div class="">
-                <a href="" class="call_to-btn btn_white-border">
-                  Read More
-                </a>
+
+                <Link to="/mission"><a class="call_to-btn btn_white-border">Learn more about our school and mission here! </a></Link>
               </div>
             </div>
           </div>

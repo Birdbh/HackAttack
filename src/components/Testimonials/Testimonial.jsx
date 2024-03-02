@@ -29,9 +29,11 @@ function Testimonial() {
                             Alex Du
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                          Thanks to Maaktabi, my education knows no boundaries! As a girl restricted from school past sixth grade, Maaktabi's free online courses in Farsi, Pashto, English, math, and sciences for grades 6-12 have given me the chance to take control of my learning journey.
+
+With simple guides on VPN access and Zoom setup, learning is both secure and convenient. Whether I join an online class with global teachers or follow a personalized learning plan, Maaktabi allows me to learn at my own pace.
+
+Maaktabi isn't just an online school; it's a lifeline for those facing educational challenges. I'm grateful for the chance to shape my future without limits. Thank you, Maaktabi, for changing my life through education
                           </p>
                         </div>
                       </div>
