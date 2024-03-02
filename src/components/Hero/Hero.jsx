@@ -1,5 +1,6 @@
 import React from 'react'
-import hero from "./hero.png";
+
+import { Link } from 'react-router-dom';
 function Hero() {
   const customStyle = {
     backgroundColor: '#7CC6FE',
@@ -11,24 +12,21 @@ function Hero() {
         <div class="hero-container container">
     <div class="hero_detail-box">
       <h1>
-        Best way
-        to fund
-        your study
-        abroad
+        Learn without limits!
       </h1>
       <p>
-        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam
+      Are you a girl banned from going to school past sixth grade in August 2021? This is your opportunity to take your education into your hands!
+       Maaktabi provides opportunities for all students to learn from their home with all your school subjects from grade 6-12 with a custom learning plan.
       </p>
       <div class="hero_btn-continer">
-        <a href="" class="call_to-btn btn_white-border">
-          Read More
-        </a>
+        
+        <Link to="/register"> <button class="call_to-btn btn_white-border" >Register</button></Link>
+
       </div>
     </div>
     <div class="hero_img-container">
       <div>
-        <img src={hero} alt="" class="img-fluid"/>
+        <img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-08-2023-UNICEF-Afghanistan-school.jpg/image770x420cropped.jpg" alt="" class="img-fluid"/>
       </div>
     </div>
   </div>

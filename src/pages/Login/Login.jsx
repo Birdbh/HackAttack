@@ -20,7 +20,8 @@ const Login = () => {
                     <p>
                     Out goal is to connect you with the information you need to learn and succeed in the world!
                     </p>
-                    <button >Register</button>
+                    <Link to="/register"> <button >Register</button></Link>
+                   
                 </div>
                 <div className="right">
                     <h1>Login</h1>
