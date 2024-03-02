@@ -9,6 +9,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
+import profile_img from "./profile_img.jpg";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
@@ -74,11 +75,13 @@ const Profile = () => {
   return (
     <div className="profile">
       <div className="images">
-        <img
-          src="https://images.pexels.com/photos/13440765/pexels-photo-13440765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt=""
-          className="cover"
-        />
+      <div style={{ padding: '5px', opacity: '0.5' }}>
+      <img
+        src="https://images.inc.com/uploaded_files/image/1920x1080/getty_507159161_2000133320009280334_181026.jpg"
+        alt=""
+        className="cover"
+      />
+    </div>
         <img
           src=""
           alt=""
@@ -91,24 +94,24 @@ const Profile = () => {
           <div className="center">
             <Avatar className="profilepic" 
             sx={{width: 150, height: 150}}
-            src="/broken-image.jpg"
+            src={profile_img}
             />
       
-            <span>Firstname lastName</span>
+            <span>Space Yoshi</span>
             <div className="info">
               <div className="item">
                 <PlaceIcon />
-                <span>Student</span>
+                <span>Grade 13</span>
               </div>
               <div className="item">
                 <LanguageIcon />
-                <span>Username</span>
+                <span>HackAttack</span>
               </div>
             </div>
-            <button onClick={handleMyRequestsClick} className="myRequestsButton"> <Link className='link' to="/jobs">My Requests</Link>
+            <button onClick={handleMyRequestsClick} className="myRequestsButton"> <Link className='link' to="/jobs">Current Course</Link>
             {notificationCount >0 && (
               <span className="notificationCount">{notificationCount}</span>)}</button>  
-             <button onClick={handleRecordedVideosClick} className="recordedVideosButton">Recorded Videos</button>
+             <button onClick={handleRecordedVideosClick} className="recordedVideosButton">Video Lectures</button>
              <button onClick={handleNotificationsClick} className="notificationsButton">
              <NotificationsIcon fontSize="large"
              className="notificationsButton"/>
