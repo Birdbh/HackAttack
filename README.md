@@ -26,6 +26,7 @@ Idea:
 -Women onto television and will teach science lessons online
 -Access to computer & wifi -> step towards women equality healthcare & education
 -Coding information so that it removes stigma
+-Khan Academy
 Cons:
 -Niche
 -Coding & mumbo jumbo for translation
