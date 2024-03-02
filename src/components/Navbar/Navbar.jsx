@@ -1,52 +1,62 @@
-import React from 'react'
-import {redirect, useNavigate,Navigate, Link,} from "react-router-dom";
-import { useState } from "react";
+import React from 'react';
+import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleDrawerOpen = () => {
+    setOpen(true);
+  };
+
+  const handleDrawerClose = () => {
+    setOpen(false);
+  };
+
   return (
-    <div class="container fix_header_name">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
+    <div>
+      <AppBar position="static" sx={{ backgroundColor: '#7CC6FE' , margin:"5px"}}>
+        <Toolbar>
+          <IconButton
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            onClick={handleDrawerOpen}
+            sx={{ mr: 2 }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Maaktabi
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent"/>
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <Link to="/" class="nav-link" href="home."> Home <span class="sr-only">(current)</span></Link>
-                </li>
-                <li class="nav-item ">
-                  <Link to="/about" class="nav-link" href="about." > About <span class="sr-only">(current)</span></Link>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="courses.html"> Courses </a>
-                </li>
-
-                <li class="nav-item ">
-                  <Link to="/login" class="nav-link" href="login." > Login <span class="sr-only">(current)</span></Link>
-                </li>
-
-                <li class="nav-item">
-                <Link to="/register" class="nav-link" > Register <span class="sr-only">(current)</span></Link>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-
-              </ul>
-            </div>
-        </nav>
-      </div>
-    
-  )
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Drawer
+        anchor="left"
+        open={open}
+        onClose={handleDrawerClose}
+      >
+        <List>
+          <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
+            <ListItemText primary="Home" />
+          </ListItem>
+          <ListItem button component={Link} to="/login" onClick={handleDrawerClose}>
+            <ListItemText primary="Login" />
+          </ListItem>
+          <ListItem button component={Link} to="/about" onClick={handleDrawerClose}>
+            <ListItemText primary="About" />
+          </ListItem>
+          <ListItem button component="a" href="subjects" onClick={handleDrawerClose}>
+            <ListItemText primary="Subjects" />
+          </ListItem>
+          <ListItem button component="a" href="/contact-us" onClick={handleDrawerClose}>
+            <ListItemText primary="Contact Us" />
+          </ListItem>
+        </List>
+      </Drawer>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
