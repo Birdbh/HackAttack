@@ -32,5 +32,11 @@ Cons:
 -Niche
 -Coding & mumbo jumbo for translation
 
+-Subjects
+-Quizzes for use
+-Videos for person who is user
+-One demo lesson path
+-Sign in -> text-based verification
+
 Idea:
 -University-related and we could do it on campus
