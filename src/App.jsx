@@ -64,11 +64,11 @@ function App() {
           element:<Login />
         },
         {
-          path:"/math",
+          path:"/subjects/math",
           element:<Math/>
         },
         {
-          path:"/computer-basics",
+          path:"/subjects/computer-basics",
           element:<ComputerLiteracy/>
         },
         {
