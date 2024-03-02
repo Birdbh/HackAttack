@@ -29,7 +29,7 @@ const Login = () => {
                         <input type="text" name="loginParam" placeholder="Email or username" value={loginParam} onChange={(e) => setLoginParam(e.target.value)}/>
                         <input type="password" name="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}/>
 
-                        <Link to="/courses" class="nav-link" >
+                        <Link to="/" class="nav-link">
 
                         <button disabled={!loginParam || !password} type="submit">{loading ? "Please wait" : "Login"}</button></Link>
 
