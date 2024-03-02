@@ -39,6 +39,10 @@
   
 }
 
+.fix_header_name{
+  max-width: none;
+}
+
 .call_to-btn img {
   width: 18px;
   margin-left: 10px;

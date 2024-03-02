@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Navbar() {
   return (
-    <div class="container">
+    <div class="container fix_header_name">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
