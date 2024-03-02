@@ -98,6 +98,7 @@ a:focus {
 
 .top_container {
   position: relative;
+  margin-top: 50px;
 }
 
 .container nav{
