@@ -27,6 +27,7 @@ Idea:
 -Access to computer & wifi -> step towards women equality healthcare & education
 -Coding information so that it removes stigma
 -Khan Academy
+-Add conversions from English to Pharcy or something else inside the dialec
 Cons:
 -Niche
 -Coding & mumbo jumbo for translation
