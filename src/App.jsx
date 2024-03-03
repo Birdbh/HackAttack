@@ -21,6 +21,7 @@ import Chem from "./pages/Courses/Science/Chem";
 import Bio from "./pages/Courses/Science/Bio";
 import About from "./components/About/About";
 import Contact from "./pages/Contact/Contact";
+import Mission from "./components/Mission/Mission";
 
 
 function App() {
@@ -73,6 +74,10 @@ function App() {
         {
           path:"/login",
           element:<Login />
+        },
+        {
+          path:"/mission",
+          element:<Mission />
         },
         {
           path:"/subjects/math",

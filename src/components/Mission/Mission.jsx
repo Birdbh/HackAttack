@@ -1,5 +1,6 @@
 import React from 'react'
 import why from "./why.png";
+import { Link } from 'react-router-dom';
 function Mission() {
     return (
         <div>
@@ -14,17 +15,13 @@ function Mission() {
               <div class="col-md-6">
                 <div class="about_detail-box">
                   <h3>
-                    About our School
+                    Mission Statement!
                   </h3>
-                  <p>
-                  Our online school is free and available for everyone, regardless of their gender, age, or education level.
-                   We provide online courses and teachings on Farsi, Pashto, English, mathematics, and sciences from grades 6-12 for free. 
-                   We begin by teaching you how to access an online web VPN and download a zoom account, which will allow you to access the rest of our courses securely and safely. Then, you have the option of being put in an online classroom with a teacher based internationally, or by providing you a customized learning plan that you can follow on your own time.
+                  <p>Empowering minds, breaking barriers. Our mission at Maaktabi is to provide free, accessible, and quality education for all, 
+                    transcending gender, age, and educational background. We believe in the transformative power of learning and strive to unlock the full 
+                    potential of every student, fostering a world where education knows no limits.
                   </p>
-                  <div class="">
-    
-                    <Link to="/mission"><a class="call_to-btn btn_white-border">Learn more about our school and mission here! </a></Link>
-                  </div>
+                  
                 </div>
               </div>
             </div>

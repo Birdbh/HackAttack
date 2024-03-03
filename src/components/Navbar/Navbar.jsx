@@ -53,6 +53,9 @@ function Navbar() {
           <ListItem button component="a" href="/contact-us" onClick={handleDrawerClose}>
             <ListItemText primary="Contact Us" />
           </ListItem>
+          <ListItem button component="a" href="/mission" onClick={handleDrawerClose}>
+            <ListItemText primary="Mission" />
+          </ListItem>
         </List>
       </Drawer>
     </div>
