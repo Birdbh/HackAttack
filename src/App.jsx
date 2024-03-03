@@ -10,6 +10,7 @@ import "./responsive.css"
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
+import Mission from './components/Mission/Mission';
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Profile from "./pages/Profile/Profile";
