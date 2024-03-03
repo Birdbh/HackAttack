@@ -54,7 +54,7 @@ Maaktabi isn't just an online school; it's a lifeline for those facing education
                           <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                            ea 
+                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                           </p>
                         </div>
                       </div>
