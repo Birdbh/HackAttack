@@ -20,21 +20,10 @@ const Register = () => {
   return (
     <div className="register">
       <div className="card">
-        <div className="left">
-          <h1>Maaktabi</h1>
-          <p>Sign Up and we can customize your learning plan</p>
-        </div>
         <div className="right">
           <h1>Register</h1>
           <form >
 
-            <input
-              type="text"
-              name="email"
-              placeholder="Email"
-              value={email}
-      
-            />
             {formErrors.email && <span className="error">{formErrors.email}</span>}
 
             <input
