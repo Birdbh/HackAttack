@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <div>
-      <AppBar position="static" sx={{ backgroundColor: '#7CC6FE' , margin:"5px"}}>
+      <AppBar position="static" sx={{ backgroundColor: '#7CC6FE' , margin:"10px"}}>
         <Toolbar>
           <IconButton
             edge="start"

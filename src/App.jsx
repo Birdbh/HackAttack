@@ -21,6 +21,8 @@ import Chem from "./pages/Courses/Science/Chem";
 import Bio from "./pages/Courses/Science/Bio";
 import About from "./components/About/About";
 import Contact from "./pages/Contact/Contact";
+import LearningPlatform from "./pages/Courses/LearningPlatform";
+import ComputerNetworksQuiz from "./pages/Quiz/Quiz";
 
 
 function App() {
@@ -60,7 +62,7 @@ function App() {
         ,
         {
           path: "/subjects", 
-          element: <Courses />
+          element: <LearningPlatform />
         },
         {
           path:"/",
@@ -93,6 +95,14 @@ function App() {
         {
           path:"/subjects/biology",
           element:<Bio/>
+        },
+        {
+          path:"/learning-platform",
+          element:<LearningPlatform/>
+        },
+        {
+          path:"/quiz",
+          element:<ComputerNetworksQuiz/>
         }
         
       ],
